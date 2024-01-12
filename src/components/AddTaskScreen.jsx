@@ -8,7 +8,7 @@ const AddTaskScreen = ({ length, addTask, history }) => {
     const newTask = { id: length + 1, title, description };
     addTask(newTask);
 
-    // Assuming you are using React Router for navigation
+
     history.push('/TodoList');
   };
 
